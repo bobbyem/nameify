@@ -1,0 +1,24 @@
+.InfoDisplay {
+  animation: fade 1s forwards;
+  color: white;
+  img {
+    border: 1px solid white;
+  }
+  p {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    span {
+      font-weight: 400;
+    }
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,20 @@
+.Credit {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-left: 2rem;
+  color: rgb(149, 149, 149);
+  a {
+    margin-left: 1rem;
+    color: white;
+  }
+}
+
+@media only screen and(max-width: 600px) {
+  .Credit {
+    padding: 0 0.5rem;
+  }
+}
